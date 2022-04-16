@@ -1,0 +1,59 @@
+.talentos {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin: 48px 0;
+	text-align: center;
+}
+
+.vagas__subtitulo {
+	background-color: rgba(142, 36, 36, 0.05);
+	border-radius: 16px;
+	color: var(--vermelho);
+	font-size: 14px;
+	font-weight: var(--bold);
+	padding: 4px 12px;
+	width: 125px;
+}
+
+.vagas__titulo {
+	color: var(--preto);
+	font-size: 36px;
+	font-weight: var(--bold);
+	letter-spacing: -0.02em;
+	margin: 16px 0;
+}
+
+.vagas__descricao {
+	color: var(--cinza);
+	font-size: 20px;
+	font-weight: var(--soft);
+	margin: 20px 0;
+}
+
+.talentos__imagem {
+	background: url(../../img/image.png) no-repeat center/ cover;
+	height: 400px;
+}
+@media screen and (min-width: 0) {
+	.talentos {
+		margin: 48px 0;
+	}
+
+	.talentos__imagem {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.talentos__imagem {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.talentos__imagem {
+		margin: 64px 112px 0 64px;
+		width: calc(100% - 224px);
+	}
+}

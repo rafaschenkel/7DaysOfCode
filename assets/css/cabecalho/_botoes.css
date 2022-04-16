@@ -1,0 +1,22 @@
+.cabecalho__botoes {
+	align-items: center;
+	display: flex;
+}
+
+.botoes {
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: var(--normal);
+	padding: 12px;
+}
+
+.botao--entrar {
+	background-color: unset;
+	color: var(--cinza);
+}
+
+.botao--cadastrar {
+	background-color: var(--vermelho);
+	color: #FFFFFF;
+}

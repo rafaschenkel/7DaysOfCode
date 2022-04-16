@@ -1,0 +1,55 @@
+.depoimentos {
+	padding: 96px 0;
+}
+
+.depoimentos__container {
+	background-color: rgba(196, 25, 25, 0.03);
+	border-radius: 16px;
+	padding: 64px;
+	text-align: center;
+}
+
+.depoimentos__subtitulo {
+	color: var(--vermelho);
+	font-size: 14px;
+	font-weight: var(--bold);
+	margin: 16px 0;
+}
+
+.depoimentos__titulo {
+	color: var(--preto);
+	font-size: 36px;
+	font-weight: var(--normal);
+	letter-spacing: -0.02em;
+	margin: 16px 0;
+}
+
+.depoimentos__autor {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.depoimentos__autor--imagem {
+	margin: 16px 0;
+}
+
+.depoimentos__autor--nome {
+	color: var(--preto);
+	font-size: 16px;
+	font-weight: var(--normal);
+	margin: 4px 0;
+}
+
+.depoimentos__autor--funcao {
+	color: var(--cinza);
+	font-size: 14px;
+	font-weight: var(--soft);
+	margin: 4px 0;
+}
+
+@media screen and (min-width: 1024px) {
+	.depoimentos__container {
+		margin: 0 112px;
+	}
+}
